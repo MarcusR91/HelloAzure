@@ -8,11 +8,11 @@ public class NameController : ControllerBase
 {
 
 
-    [HttpGet(Name = "Message")]
-    public ActionResult<string> GetMessage()
-    {
-        return "Hej Babat";
-    }
+    // [HttpGet(Name = "Message")]
+    // public ActionResult<string> GetMessage()
+    // {
+    //     return "Hej Babat";
+    // }
 
     [HttpGet(Name = "Name")]
     public ActionResult<string> GetName(int id)
